@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <style>
+    body {
+      height: auto;
+    }
     video {
-  height: 90%;
-}
+      height: 90%;
+      /*margin: 0 auto;*/
+    }
+    .vidos {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
 </style>
   <body>
-    <video id="video" height="700" width="800" autoplay muted></video><br><br>
+<!--    <div class="vidos">-->
+<!--      <p>Тест фотка с телефона</p>-->
+<!--      <input type="file" accept="image/*" capture="camera" />-->
+<!--    </div>-->
 
-    <input type="file" accept="image/*" capture="camera" />
+    <div class = "vidos">
+      <video id="video" height="700" width="800" autoplay muted></video>
+    </div>
+
+
+
 
     <script src="./js/face-api.min.js"></script>
     <script src="./js/main.js"></script>
