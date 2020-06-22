@@ -1,2 +1,1 @@
-# Face-Detection
-From YouTube Tutorial
+# Face-Detection for web-site with webcam 
